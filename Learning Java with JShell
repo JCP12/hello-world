@@ -1,0 +1,7 @@
+//Multiplication table with 10 entries for the value you choose in ()
+
+void printMultiplicationTable(int b) {
+  for(int a=1; a<=10; a++) {
+    System.out.printf("%d * %d = %d", a, b, a*b).println();
+    }
+}
